@@ -1,0 +1,25 @@
+[file]
+img = "E:/gopath/src/djspider/static/img"
+log = "E:/gopath/src/djspider/static/log"
+
+[mysql]
+host = "127.0.0.1"
+port = 3306
+username = "root"
+password = "root"
+database = "djspider"
+
+[system]
+period = "0 */5 * * * ?"
+
+[auth]
+key = "www.***.com"
+expireday = 7
+issue = "127.0.0.1"
+subject = "user token"
+
+[email]
+from = "四川党的建设杂志社  <11111111@qq.com>"
+subject = "党建-热点文章推送"
+username = "11111111@qq.com"
+authcode = "arldawngmermbjhc"
